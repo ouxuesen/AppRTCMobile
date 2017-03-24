@@ -33,7 +33,7 @@
 #import "RTCIceCandidate+JSON.h"
 #import "RTCSessionDescription+JSON.h"
 
-static NSString * const kARDIceServerRequestUrl = @"https://appr.tc/params";
+static NSString * const kARDIceServerRequestUrl = @"http://10.11.145.88:8080/params";
 
 static NSString * const kARDAppClientErrorDomain = @"ARDAppClient";
 static NSInteger const kARDAppClientErrorUnknown = -1;

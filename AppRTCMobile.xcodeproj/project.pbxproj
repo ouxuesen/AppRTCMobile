@@ -55,10 +55,6 @@
 		D72944391E81289C00B51055 /* RTCMediaConstraints+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = D72944101E81289C00B51055 /* RTCMediaConstraints+JSON.m */; };
 		D729443A1E81289C00B51055 /* RTCSessionDescription+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = D72944121E81289C00B51055 /* RTCSessionDescription+JSON.m */; };
 		D729443B1E81289C00B51055 /* UIImage+ARDUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = D72944141E81289C00B51055 /* UIImage+ARDUtilities.m */; };
-		D72944481E81316600B51055 /* RTCAudioSession+Configuration.mm in Sources */ = {isa = PBXBuildFile; fileRef = D729443F1E81316600B51055 /* RTCAudioSession+Configuration.mm */; };
-		D72944491E81316600B51055 /* RTCAudioSession.mm in Sources */ = {isa = PBXBuildFile; fileRef = D72944421E81316600B51055 /* RTCAudioSession.mm */; };
-		D729444A1E81316600B51055 /* RTCAudioSessionConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = D72944441E81316600B51055 /* RTCAudioSessionConfiguration.m */; };
-		D729444B1E81316600B51055 /* RTCAudioSessionDelegateAdapter.mm in Sources */ = {isa = PBXBuildFile; fileRef = D72944461E81316600B51055 /* RTCAudioSessionDelegateAdapter.mm */; };
 		D73055271E83CC3500BF90B7 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D73055261E83CC3500BF90B7 /* Default-568h@2x.png */; };
 		D79B56801E83D5A700045DFF /* ARDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D79B567E1E83D5A700045DFF /* ARDAppDelegate.m */; };
 		D79B56811E83D71B00045DFF /* WebRTC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D729443C1E81296400B51055 /* WebRTC.framework */; };
@@ -198,14 +194,10 @@
 		D72944131E81289C00B51055 /* UIImage+ARDUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ARDUtilities.h"; sourceTree = "<group>"; };
 		D72944141E81289C00B51055 /* UIImage+ARDUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ARDUtilities.m"; sourceTree = "<group>"; };
 		D729443C1E81296400B51055 /* WebRTC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WebRTC.framework; sourceTree = "<group>"; };
-		D729443F1E81316600B51055 /* RTCAudioSession+Configuration.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "RTCAudioSession+Configuration.mm"; sourceTree = "<group>"; };
 		D72944401E81316600B51055 /* RTCAudioSession+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RTCAudioSession+Private.h"; sourceTree = "<group>"; };
 		D72944411E81316600B51055 /* RTCAudioSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCAudioSession.h; sourceTree = "<group>"; };
-		D72944421E81316600B51055 /* RTCAudioSession.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = RTCAudioSession.mm; sourceTree = "<group>"; };
 		D72944431E81316600B51055 /* RTCAudioSessionConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCAudioSessionConfiguration.h; sourceTree = "<group>"; };
-		D72944441E81316600B51055 /* RTCAudioSessionConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTCAudioSessionConfiguration.m; sourceTree = "<group>"; };
 		D72944451E81316600B51055 /* RTCAudioSessionDelegateAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCAudioSessionDelegateAdapter.h; sourceTree = "<group>"; };
-		D72944461E81316600B51055 /* RTCAudioSessionDelegateAdapter.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = RTCAudioSessionDelegateAdapter.mm; sourceTree = "<group>"; };
 		D73055261E83CC3500BF90B7 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		D79B567B1E83D0F400045DFF /* typedefs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = typedefs.h; sourceTree = "<group>"; };
 		D79B567C1E83D5A600045DFF /* AppRTCMobile-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppRTCMobile-Prefix.pch"; sourceTree = "<group>"; };
@@ -461,14 +453,10 @@
 		D729443E1E81316600B51055 /* objc */ = {
 			isa = PBXGroup;
 			children = (
-				D729443F1E81316600B51055 /* RTCAudioSession+Configuration.mm */,
-				D72944401E81316600B51055 /* RTCAudioSession+Private.h */,
 				D72944411E81316600B51055 /* RTCAudioSession.h */,
-				D72944421E81316600B51055 /* RTCAudioSession.mm */,
+				D72944401E81316600B51055 /* RTCAudioSession+Private.h */,
 				D72944431E81316600B51055 /* RTCAudioSessionConfiguration.h */,
-				D72944441E81316600B51055 /* RTCAudioSessionConfiguration.m */,
 				D72944451E81316600B51055 /* RTCAudioSessionDelegateAdapter.h */,
-				D72944461E81316600B51055 /* RTCAudioSessionDelegateAdapter.mm */,
 			);
 			path = objc;
 			sourceTree = "<group>";
@@ -774,14 +762,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				D729442D1E81289C00B51055 /* ARDAppClient.m in Sources */,
-				D72944491E81316600B51055 /* RTCAudioSession.mm in Sources */,
 				D729443A1E81289C00B51055 /* RTCSessionDescription+JSON.m in Sources */,
 				D72944301E81289C00B51055 /* ARDJoinResponse.m in Sources */,
 				D72943A21E81256100B51055 /* ViewController.m in Sources */,
 				D729442F1E81289C00B51055 /* ARDBitrateTracker.m in Sources */,
 				D72944161E81289C00B51055 /* ARDMainViewController.m in Sources */,
 				D72944371E81289C00B51055 /* RTCIceCandidate+JSON.m in Sources */,
-				D72944481E81316600B51055 /* RTCAudioSession+Configuration.mm in Sources */,
 				D72944381E81289C00B51055 /* RTCIceServer+JSON.m in Sources */,
 				D729441A1E81289C00B51055 /* ARDStatsView.m in Sources */,
 				D729439C1E81256100B51055 /* main.m in Sources */,
@@ -789,7 +775,6 @@
 				D72944191E81289C00B51055 /* ARDSettingsViewController.m in Sources */,
 				D729443B1E81289C00B51055 /* UIImage+ARDUtilities.m in Sources */,
 				D72944391E81289C00B51055 /* RTCMediaConstraints+JSON.m in Sources */,
-				D729444B1E81316600B51055 /* RTCAudioSessionDelegateAdapter.mm in Sources */,
 				D729441D1E81289C00B51055 /* ARDUtilities.m in Sources */,
 				D72944331E81289C00B51055 /* ARDSignalingMessage.m in Sources */,
 				D79B56801E83D5A700045DFF /* ARDAppDelegate.m in Sources */,
@@ -797,7 +782,6 @@
 				D72944311E81289C00B51055 /* ARDMessageResponse.m in Sources */,
 				D72944181E81289C00B51055 /* ARDSettingsStore.m in Sources */,
 				D72944151E81289C00B51055 /* ARDMainView.m in Sources */,
-				D729444A1E81316600B51055 /* RTCAudioSessionConfiguration.m in Sources */,
 				D729441C1E81289C00B51055 /* ARDVideoCallViewController.m in Sources */,
 				D72944361E81289C00B51055 /* ARDWebSocketChannel.m in Sources */,
 				D72944321E81289C00B51055 /* ARDSDPUtils.m in Sources */,

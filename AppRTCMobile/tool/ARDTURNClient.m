@@ -14,7 +14,7 @@
 #import "RTCIceServer+JSON.h"
 
 // TODO(tkchin): move this to a configuration object.
-static NSString *kTURNRefererURLString = @"https://appr.tc";
+static NSString *kTURNRefererURLString = @"http://10.11.145.88:8080";
 static NSString *kARDTURNClientErrorDomain = @"ARDTURNClient";
 static NSInteger kARDTURNClientErrorBadResponse = -1;
 
